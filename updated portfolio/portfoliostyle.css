@@ -1,0 +1,144 @@
+html{height: 100%;
+
+}
+
+body{margin: 0;
+    background-image: url(https://www.companyfolders.com/blog/media/2014/04/hand-troweled-grey-wall-surface_stone-2.jpg);
+    
+    height: 100%;
+}
+
+header{background-color: white;
+border-bottom: 1px solid grey;
+
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container1{width: 100%;
+
+}
+
+.container2{float: left;
+    background-color: lightseagreen;
+    margin-left: 5%;
+}
+
+nav{float: right;
+    margin-right: 5%;
+    vertical-align: middle;
+    padding-bottom: 14.9375px;
+    padding-top: 14.9375px;
+}
+
+nav ul{
+    padding: 0;
+    list-style: none;
+    
+    
+}
+
+nav li{display: inline-block;
+    margin-left: 50px;
+    
+
+}
+#Name{color: white;
+    padding: 0 15px;
+    
+}
+
+.container3{width: 60%;
+    margin-left: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    flex: 1 1 auto;
+}
+
+#h1title{color: lightseagreen;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+hr{margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.container3::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+div img{padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    height: 400px;
+    width: 400px;
+    float: left;
+}
+
+#aboutmetext{font-family: 'Lora', serif;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    text-indent: 25px;
+    line-height: 24px;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+#footer{background-color: dimgray;
+    position: relative;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    border-top: 5px solid lightseagreen;
+}
+
+#Copyright{text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-top: 41px;
+    margin-bottom: 41px;
+
+}
+
+main{margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.form{width: 60%;
+    height: 20px;
+
+}
+
+.divider{height: 10px;
+
+}
+
+#message{width: 60%;
+    height: 80px;
+
+}
